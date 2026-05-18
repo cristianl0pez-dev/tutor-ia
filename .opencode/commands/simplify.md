@@ -20,15 +20,22 @@ Ejemplo:
 
 ## Comportamiento
 
-1. **Identificar** qué concepto necesita simplificación
-2. **Reexplicar** usando:
+1. **Usar tool `question`** para identificar:
+   - ¿Qué parte no comprendiste? (ofrecer opciones del concepto)
+   - ¿Qué tipo de ayuda prefieres? (Analogía, Ejemplo visual, Paso a paso, Comparación)
+
+2. **Identificar** qué concepto necesita simplificación según respuesta
+
+3. **Reexplicar** usando:
    - Lenguaje más simple
    - Analogía diferente
    - Ejemplo más concreto
    - Menos detalles técnicos
    - Paso a paso más granular
-3. **Incluir** comparación con algo cotidiano
-4. **Verificar** comprensión con pregunta simple
+
+4. **Incluir** comparación con algo cotidiano
+
+5. **Usar `question`** para verificar comprensión con pregunta simple
 
 ## Reglas Pedagógicas
 

@@ -4,6 +4,8 @@
 
 Un sistema de tutoría de programación que te enseña Python de forma guiada, progresiva y sin que simplemente copies soluciones.
 
+**Entorno**: Este curso se realiza en **GitHub Codespaces**. Todos los ejercicios se editan y ejecutan directamente en tu workspace. El tutor tiene acceso a tus archivos para revisar tu trabajo.
+
 ## ¿Cómo funciona?
 
 ### Comandos Disponibles
@@ -52,6 +54,8 @@ Y comenzamos.
 - El avance depende de tu comprensión
 - Puedes pedir pistas sin problema
 - Si no entiendes, pide `/simplify`
+- Los ejercicios se realizan editando archivos `.py` en tu workspace
+- El tutor revisa tus archivos directamente, no pegues código
 
 ## Tu Progreso
 

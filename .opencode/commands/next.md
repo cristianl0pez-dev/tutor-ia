@@ -12,18 +12,18 @@ Desbloquea el siguiente nivel o módulo si el estudiante demuestra comprensión.
 
 ## Comportamiento
 
-1. **Verificar criterios de desbloqueo**:
-   - ¿El estudiante completó la práctica mínima?
-   - ¿Explicó su razonamiento?
-   - ¿Demuestra comprensión del concepto?
+1. **Usar tool `question`** para verificar:
+   - ¿Completaste la práctica mínima? (Sí, Parcialmente, No)
+   - ¿Puedes explicar tu razonamiento? (Sí, Con ayuda, No estoy seguro)
+   - ¿Demuestras comprensión del concepto? (Sí, Parcialmente, Necesito repasar)
 
-2. **Si cumple**:
+2. **Si cumple** (respuestas positivas):
    - Actualizar `progreso/student_progress.md`
    - Marcar nivel como completado
    - Desbloquear siguiente nivel o módulo
    - Mostrar qué viene después
 
-3. **Si NO cumple**:
+3. **Si NO cumple** (respuestas negativas o parciales):
    - Explicar qué falta
    - Sugerir práctica adicional
    - Ofrecer `/hint` o `/simplify`

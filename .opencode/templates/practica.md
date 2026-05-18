@@ -4,20 +4,33 @@
 
 Completa los ejercicios en orden. No saltes niveles. Si necesitas ayuda, escribe `/hint`.
 
+**Importante**: Todos los ejercicios se realizan en tu workspace de Codespaces. Los archivos `.py` están en la carpeta de este módulo. Edítalos directamente y cuando termines escribe `/review`.
+
+---
+
+## Archivos de Ejercicio
+
+Los siguientes archivos están en tu workspace para que los completes:
+
+| Archivo | Nivel | Descripción |
+|---------|-------|-------------|
+| `ejercicio_nivel1.py` | 1 | Reconocimiento |
+| `ejercicio_nivel2.py` | 2 | Completar código |
+| `ejercicio_nivel3.py` | 3 | Modificar código |
+| `ejercicio_nivel4.py` | 4 | Resolver problema |
+| `ejercicio_nivel5.py` | 5 | Mini desafío |
+
+Para ejecutar: `python modulos/<modulo>/ejercicio_nivelX.py`
+
 ---
 
 ## Nivel 1 — Reconocimiento
 
 **Objetivo**: Identificar conceptos correctos.
 
-### Ejercicio 1.1
-{{EJERCICIO_RECONOCIMIENTO}}
+**Archivo**: `ejercicio_nivel1.py`
 
-**Opciones**:
-- A) {{OPCION_A}}
-- B) {{OPCION_B}}
-- C) {{OPCION_C}}
-- D) {{OPCION_D}}
+{{EJERCICIO_RECONOCIMIENTO}}
 
 <details>
 <summary>Pista</summary>
@@ -30,12 +43,9 @@ Completa los ejercicios en orden. No saltes niveles. Si necesitas ayuda, escribe
 
 **Objetivo**: Completar código con partes faltantes.
 
-### Ejercicio 2.1
-```python
-{{CODIGO_CON_HUECOS}}
-```
+**Archivo**: `ejercicio_nivel2.py`
 
-**Instrucción**: Completa los espacios marcados con `___`.
+{{EJERCICIO_COMPLETAR}}
 
 <details>
 <summary>Pista</summary>
@@ -48,12 +58,9 @@ Completa los ejercicios en orden. No saltes niveles. Si necesitas ayuda, escribe
 
 **Objetivo**: Modificar código existente para cambiar su comportamiento.
 
-### Ejercicio 3.1
-```python
-{{CODIGO_EXISTENTE}}
-```
+**Archivo**: `ejercicio_nivel3.py`
 
-**Instrucción**: {{MODIFICACIÓN_REQUERIDA}}
+{{EJERCICIO_MODIFICAR}}
 
 <details>
 <summary>Pista</summary>
@@ -66,7 +73,8 @@ Completa los ejercicios en orden. No saltes niveles. Si necesitas ayuda, escribe
 
 **Objetivo**: Escribir código desde cero para resolver un problema.
 
-### Ejercicio 4.1
+**Archivo**: `ejercicio_nivel4.py`
+
 **Problema**: {{DESCRIPCIÓN_PROBLEMA}}
 
 **Requisitos**:
@@ -88,7 +96,8 @@ Completa los ejercicios en orden. No saltes niveles. Si necesitas ayuda, escribe
 
 **Objetivo**: Aplicar todo lo aprendido en un proyecto pequeño.
 
-### Desafío 5.1
+**Archivo**: `ejercicio_nivel5.py`
+
 **Descripción**: {{DESCRIPCIÓN_DESAFÍO}}
 
 **Requisitos**:
@@ -108,4 +117,4 @@ Completa los ejercicios en orden. No saltes niveles. Si necesitas ayuda, escribe
 
 ---
 
-> **Nota**: Después de completar cada nivel, explica tu razonamiento antes de pasar al siguiente.
+> **Nota**: Después de completar cada nivel, escribe `/review` para que revise tu código.

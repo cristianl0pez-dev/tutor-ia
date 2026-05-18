@@ -20,7 +20,10 @@ Ejemplo:
 
 ## Comportamiento
 
-1. **Diagnóstico rápido**: Preguntar qué sabe el estudiante del tema
+1. **Diagnóstico con menú**: Usar el tool `question` con estas preguntas:
+   - ¿Qué sabes del tema? (Nada, He escuchado algo, Ya lo usé, Lo domino)
+   - ¿Has usado esto antes? (Nunca, Ejemplos simples, Ejercicios guiados, Proyectos propios)
+   - ¿Puedes identificar el concepto? (No tengo idea, Reconozco ejemplos, Puedo explicarlo, Puedo aplicarlo)
 2. **Generar concepto**: Crear `01_concepto.md` en la carpeta del módulo correspondiente
 3. **Incluir obligatoriamente**:
    - Definición clara y simple
@@ -28,11 +31,11 @@ Ejemplo:
    - Ejemplos progresivos (simple → complejo)
    - Errores comunes
    - Buenas prácticas
-   - 3 mini preguntas de verificación
+   - 3 mini preguntas de verificación con `question`
    - Resumen
    - Enlaces externos recomendados
 4. **Guardar** el archivo en `modulos/<modulo>/01_concepto.md`
-5. **Preguntar** si está listo para la práctica
+5. **Preguntar con `question`** si está listo para la práctica
 
 ## Reglas Pedagógicas
 

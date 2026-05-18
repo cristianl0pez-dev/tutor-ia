@@ -4,41 +4,42 @@
 
 Completa los ejercicios en orden. No saltes niveles. Si necesitas ayuda, escribe `/hint`.
 
+**Importante**: Todos los ejercicios se realizan en tu workspace de Codespaces. Los archivos `.py` están en la carpeta de este módulo. Edítalos directamente y cuando termines escribe `/review`.
+
+---
+
+## Archivos de Ejercicio
+
+Los siguientes archivos están en tu workspace para que los completes:
+
+| Archivo | Nivel | Descripción |
+|---------|-------|-------------|
+| `ejercicio_nivel1.py` | 1 | Crear variables y mostrar sus tipos |
+| `ejercicio_nivel2.py` | 2 | Completar código con espacios en blanco |
+| `ejercicio_nivel3.py` | 3 | Modificar código existente |
+| `ejercicio_nivel4.py` | 4 | Resolver problemas desde cero |
+| `ejercicio_nivel5.py` | 5 | Mini desafío: conversor de temperatura |
+
+Para ejecutar un ejercicio:
+```bash
+python modulos/01_variables/ejercicio_nivel1.py
+```
+
 ---
 
 ## Nivel 1 — Reconocimiento
 
-**Objetivo**: Identificar tipos de datos y conceptos básicos.
+**Objetivo**: Identificar tipos de datos y crear variables básicas.
 
-### Ejercicio 1.1
+**Archivo**: `ejercicio_nivel1.py`
 
-¿Qué tipo de dato es cada valor?
-
-a) `"hola"`
-b) `42`
-c) `3.14`
-d) `True`
-e) `"3.14"`
+Debes:
+- Crear 4 variables (nombre, edad, estatura, es_estudiante)
+- Mostrar el tipo de cada variable con `type()`
 
 <details>
 <summary>Pista</summary>
-Piensa en: ¿tiene comillas? ¿tiene punto decimal? ¿es verdadero/falso?
-</details>
-
-### Ejercicio 1.2
-
-¿Cuáles de estos nombres de variables son válidos en Python?
-
-a) `mi_variable`
-b) `2nombre`
-c) `nombre completo`
-d) `_edad`
-e) `for`
-f) `EDAD`
-
-<details>
-<summary>Pista</summary>
-Recuerda: no empezar con número, sin espacios, no usar palabras reservadas.
+Recuerda: strings van entre comillas, números sin comillas, booleanos son True o False.
 </details>
 
 ---
@@ -47,47 +48,13 @@ Recuerda: no empezar con número, sin espacios, no usar palabras reservadas.
 
 **Objetivo**: Completar código con partes faltantes.
 
-### Ejercicio 2.1
+**Archivo**: `ejercicio_nivel2.py`
 
-Completa los espacios marcados con `___` para que el código funcione:
-
-```python
-# Crea una variable llamada nombre con tu nombre
-nombre = ___
-
-# Crea una variable llamada edad con tu edad
-___ = 25
-
-# Muestra un mensaje
-print("Me llamo " + ___ + " y tengo " + str(___) + " años")
-```
+Debes reemplazar los `___` con el código correcto para que funcione.
 
 <details>
 <summary>Pista</summary>
-Para crear una variable: `nombre_variable = valor`. Para usarla, escribe su nombre.
-</details>
-
-### Ejercicio 2.2
-
-Completa el código para sumar dos números ingresados por el usuario:
-
-```python
-numero1 = input("Ingresa el primer número: ")
-numero2 = input("Ingresa el segundo número: ")
-
-# Convierte los strings a integers
-num1 = ___(numero1)
-num2 = int(___)
-
-# Calcula la suma
-suma = num1 ___ num2
-
-print("La suma es:", ___)
-```
-
-<details>
-<summary>Pista</summary>
-Recuerda que `input()` devuelve texto. Necesitas convertir a número con `int()`.
+Para convertir texto a número usa `int()`. Para intercambiar variables necesitas una tercera variable temporal.
 </details>
 
 ---
@@ -96,48 +63,16 @@ Recuerda que `input()` devuelve texto. Necesitas convertir a número con `int()`
 
 **Objetivo**: Modificar código existente para cambiar su comportamiento.
 
-### Ejercicio 3.1
+**Archivo**: `ejercicio_nivel3.py`
 
-Este código calcula el área de un rectángulo:
-
-```python
-base = 10
-altura = 5
-area = base * altura
-print("El área es:", area)
-```
-
-**Modifícalo** para que:
-1. Pida la base y altura al usuario
-2. Calcule el área
-3. Muestre el resultado con un mensaje claro
+Debes:
+1. Cambiar valores fijos por `input()` para pedir datos al usuario
+2. Encontrar y corregir un error de tipo (TypeError)
+3. Modificar cálculo de promedio para que use `input()`
 
 <details>
 <summary>Pista</summary>
-Usa `input()` para pedir datos y `int()` para convertir. Recuerda que `input()` devuelve texto.
-</details>
-
-### Ejercicio 3.2
-
-Este código intercambia dos valores pero tiene un error:
-
-```python
-a = 10
-b = 20
-
-# Intercambiar valores
-a = b
-b = a
-
-print("a =", a)
-print("b =", b)
-```
-
-**Encuentra el error** y corrígalo. Pista: después del intercambio, ambos valores son iguales.
-
-<details>
-<summary>Pista</summary>
-Necesitas una tercera variable temporal para guardar el valor original de `a` antes de sobreescribirlo.
+`input()` siempre devuelve texto. Si necesitas hacer operaciones matemáticas, convierte con `int()` o `float()`.
 </details>
 
 ---
@@ -146,20 +81,11 @@ Necesitas una tercera variable temporal para guardar el valor original de `a` an
 
 **Objetivo**: Escribir código desde cero para resolver un problema.
 
-### Ejercicio 4.1 — Calculadora de Propina
+**Archivo**: `ejercicio_nivel4.py`
 
-**Problema**: Crea un programa que calcule cuánto debe pagar una persona en un restaurante incluyendo la propina.
-
-**Requisitos**:
-- Pedir el total de la cuenta
-- Pedir el porcentaje de propina deseado
-- Calcular el monto de la propina
-- Calcular el total a pagar
-- Mostrar ambos valores
-
-**Ejemplo de entrada/salida**:
-- Entrada: cuenta = 100, propina = 15%
-- Salida: Propina: $15.0, Total: $115.0
+Dos problemas:
+1. **Calculadora de propina**: Pedir cuenta y porcentaje, calcular total
+2. **Conversor de kilómetros a millas**: Usar fórmula 1 milla = 1.60934 km
 
 <details>
 <summary>Pista</summary>
@@ -172,25 +98,13 @@ La propina se calcula: `cuenta * (porcentaje / 100)`. El total es: `cuenta + pro
 
 **Objetivo**: Aplicar todo lo aprendido en un proyecto pequeño.
 
-### Desafío 5.1 — Conversor de Temperatura
+**Archivo**: `ejercicio_nivel5.py`
 
-**Descripción**: Crea un programa que convierta temperaturas entre Celsius y Fahrenheit.
+**Desafío**: Conversor de temperatura Celsius ↔ Fahrenheit
 
-**Requisitos**:
-- Preguntar al usuario qué conversión quiere hacer (C a F o F a C)
-- Pedir la temperatura
-- Realizar la conversión correcta
-- Mostrar el resultado con formato claro
-
-**Fórmulas**:
-- Celsius a Fahrenheit: `F = C * 9/5 + 32`
-- Fahrenheit a Celsius: `C = (F - 32) * 5/9`
-
-**Criterios de éxito**:
-- [ ] El programa pide la opción de conversión
-- [ ] Pide la temperatura
-- [ ] Calcula correctamente ambas conversiones
-- [ ] Muestra el resultado de forma clara
+Fórmulas:
+- C a F: `F = C * 9/5 + 32`
+- F a C: `C = (F - 32) * 5/9`
 
 <details>
 <summary>Pista</summary>
@@ -199,4 +113,4 @@ Usa `if` para decidir qué fórmula aplicar según la opción del usuario. Si a�
 
 ---
 
-> **Nota**: Después de completar cada nivel, explica tu razonamiento antes de pasar al siguiente.
+> **Nota**: Después de completar cada nivel, escribe `/review` para que revise tu código.

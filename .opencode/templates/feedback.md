@@ -23,6 +23,16 @@
 - **Por qué pasó**: {{CAUSA}}
 - **Cómo corregirlo**: {{CORRECCIÓN}}
 
+## Archivos Revisados
+
+| Archivo | Estado | Observación |
+|---------|--------|-------------|
+| `ejercicio_nivel1.py` | {{COMPLETADO/INCOMPLETO}} | {{OBSERVACIÓN}} |
+| `ejercicio_nivel2.py` | {{COMPLETADO/INCOMPLETO}} | {{OBSERVACIÓN}} |
+| `ejercicio_nivel3.py` | {{COMPLETADO/INCOMPLETO}} | {{OBSERVACIÓN}} |
+| `ejercicio_nivel4.py` | {{COMPLETADO/INCOMPLETO}} | {{OBSERVACIÓN}} |
+| `ejercicio_nivel5.py` | {{COMPLETADO/INCOMPLETO}} | {{OBSERVACIÓN}} |
+
 ## Siguiente Paso
 
 {{SIGUIENTE_PASO_CONCRETO}}
