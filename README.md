@@ -1,10 +1,12 @@
-# Tutor IA Pedagógico — Python para Principiantes
+# Tutor IA Pedagógico — Aprende a Programar
 
 ## ¿Qué es esto?
 
-Un sistema de tutoría de programación que te enseña Python de forma guiada, progresiva y sin que simplemente copies soluciones.
+Un sistema de tutoría de programación que te enseña de forma guiada, progresiva y sin que simplemente copies soluciones.
 
 **Entorno**: Este curso se realiza en **GitHub Codespaces**. Todos los ejercicios se editan y ejecutan directamente en tu workspace. El tutor tiene acceso a tus archivos para revisar tu trabajo.
+
+**Lenguajes soportados**: Python, JavaScript, TypeScript, Rust, HTML/CSS, SQL, Bash, C, Java, y cualquier otro lenguaje que necesites aprender.
 
 ## ¿Cómo funciona?
 
@@ -19,6 +21,17 @@ Un sistema de tutoría de programación que te enseña Python de forma guiada, p
 | `/hint` | Pedir una pista |
 | `/simplify <tema>` | Pedir una explicación más simple |
 
+### Ejemplos
+
+```
+/teach variables en Python
+/teach loops en JavaScript
+/teach funciones en Rust
+/teach HTML
+/teach SQL
+/practice variables
+```
+
 ### Flujo de Aprendizaje
 
 1. **Diagnóstico** → Te preguntamos qué sabes
@@ -30,19 +43,21 @@ Un sistema de tutoría de programación que te enseña Python de forma guiada, p
 
 ## Módulos
 
-| Módulo | Tema | Estado |
-|--------|------|--------|
-| 01 | Variables y tipos de datos | Disponible |
-| 02 | Condicionales | Bloqueado |
-| 03 | Loops (bucles) | Bloqueado |
-| 04 | Funciones | Bloqueado |
+Los módulos se crean dinámicamente según lo que necesites aprender.
 
 ## Para Empezar
 
 Escribe en el chat:
 
 ```
-/teach variables
+/teach <tema> en <lenguaje>
+```
+
+Ejemplos:
+```
+/teach variables en Python
+/teach funciones en JavaScript
+/teach HTML
 ```
 
 Y comenzamos.
@@ -54,8 +69,9 @@ Y comenzamos.
 - El avance depende de tu comprensión
 - Puedes pedir pistas sin problema
 - Si no entiendes, pide `/simplify`
-- Los ejercicios se realizan editando archivos `.py` en tu workspace
+- Los ejercicios se realizan editando archivos en tu workspace
 - El tutor revisa tus archivos directamente, no pegues código
+- El sistema se adapta a cualquier lenguaje o tecnología
 
 ## Tu Progreso
 

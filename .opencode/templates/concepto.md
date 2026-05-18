@@ -1,4 +1,4 @@
-# Concepto: {{TEMA}}
+# Concepto: {{TEMA}} en {{LENGUAJE}}
 
 ## ¿Qué es {{TEMA}}?
 
@@ -12,7 +12,7 @@
 
 ### Ejemplo 1: Básico
 
-```python
+```{{LENGUAJE}}
 {{EJEMPLO_SIMPLE}}
 ```
 
@@ -20,7 +20,7 @@
 
 ### Ejemplo 2: Intermedio
 
-```python
+```{{LENGUAJE}}
 {{EJEMPLO_INTERMEDIO}}
 ```
 
@@ -28,7 +28,7 @@
 
 ### Ejemplo 3: Avanzado
 
-```python
+```{{LENGUAJE}}
 {{EJEMPLO_AVANZADO}}
 ```
 
@@ -82,7 +82,7 @@
 
 ## Enlaces Externos
 
-- [Documentación oficial de Python](https://docs.python.org/3/)
+- [Documentación oficial de {{LENGUAJE}}]({{URL_DOCS}})
 - [{{RECURSO_ADICIONAL_1}}]({{URL_1}})
 - [{{RECURSO_ADICIONAL_2}}]({{URL_2}})
 

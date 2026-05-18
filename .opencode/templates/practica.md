@@ -1,10 +1,10 @@
-# Práctica: {{TEMA}}
+# Práctica: {{TEMA}} en {{LENGUAJE}}
 
 ## Instrucciones
 
 Completa los ejercicios en orden. No saltes niveles. Si necesitas ayuda, escribe `/hint`.
 
-**Importante**: Todos los ejercicios se realizan en tu workspace de Codespaces. Los archivos `.py` están en la carpeta de este módulo. Edítalos directamente y cuando termines escribe `/review`.
+**Importante**: Todos los ejercicios se realizan en tu workspace de Codespaces. Los archivos están en la carpeta de este módulo. Edítalos directamente y cuando termines escribe `/review`.
 
 ---
 
@@ -14,13 +14,13 @@ Los siguientes archivos están en tu workspace para que los completes:
 
 | Archivo | Nivel | Descripción |
 |---------|-------|-------------|
-| `ejercicio_nivel1.py` | 1 | Reconocimiento |
-| `ejercicio_nivel2.py` | 2 | Completar código |
-| `ejercicio_nivel3.py` | 3 | Modificar código |
-| `ejercicio_nivel4.py` | 4 | Resolver problema |
-| `ejercicio_nivel5.py` | 5 | Mini desafío |
+| `ejercicio_nivel1.{{EXT}}` | 1 | Reconocimiento |
+| `ejercicio_nivel2.{{EXT}}` | 2 | Completar código |
+| `ejercicio_nivel3.{{EXT}}` | 3 | Modificar código |
+| `ejercicio_nivel4.{{EXT}}` | 4 | Resolver problema |
+| `ejercicio_nivel5.{{EXT}}` | 5 | Mini desafío |
 
-Para ejecutar: `python modulos/<modulo>/ejercicio_nivelX.py`
+Para ejecutar: `{{COMANDO_EJECUCION}} ejercicio_nivelX.{{EXT}}`
 
 ---
 
@@ -28,7 +28,7 @@ Para ejecutar: `python modulos/<modulo>/ejercicio_nivelX.py`
 
 **Objetivo**: Identificar conceptos correctos.
 
-**Archivo**: `ejercicio_nivel1.py`
+**Archivo**: `ejercicio_nivel1.{{EXT}}`
 
 {{EJERCICIO_RECONOCIMIENTO}}
 
@@ -43,7 +43,7 @@ Para ejecutar: `python modulos/<modulo>/ejercicio_nivelX.py`
 
 **Objetivo**: Completar código con partes faltantes.
 
-**Archivo**: `ejercicio_nivel2.py`
+**Archivo**: `ejercicio_nivel2.{{EXT}}`
 
 {{EJERCICIO_COMPLETAR}}
 
@@ -58,7 +58,7 @@ Para ejecutar: `python modulos/<modulo>/ejercicio_nivelX.py`
 
 **Objetivo**: Modificar código existente para cambiar su comportamiento.
 
-**Archivo**: `ejercicio_nivel3.py`
+**Archivo**: `ejercicio_nivel3.{{EXT}}`
 
 {{EJERCICIO_MODIFICAR}}
 
@@ -73,7 +73,7 @@ Para ejecutar: `python modulos/<modulo>/ejercicio_nivelX.py`
 
 **Objetivo**: Escribir código desde cero para resolver un problema.
 
-**Archivo**: `ejercicio_nivel4.py`
+**Archivo**: `ejercicio_nivel4.{{EXT}}`
 
 **Problema**: {{DESCRIPCIÓN_PROBLEMA}}
 
@@ -96,7 +96,7 @@ Para ejecutar: `python modulos/<modulo>/ejercicio_nivelX.py`
 
 **Objetivo**: Aplicar todo lo aprendido en un proyecto pequeño.
 
-**Archivo**: `ejercicio_nivel5.py`
+**Archivo**: `ejercicio_nivel5.{{EXT}}`
 
 **Descripción**: {{DESCRIPCIÓN_DESAFÍO}}
 

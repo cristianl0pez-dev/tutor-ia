@@ -2,19 +2,19 @@
 
 ## Descripción
 
-Reexplica un concepto de forma más simple cuando el estudiante no lo comprende.
+Reexplica un concepto de forma más simple cuando el estudiante no lo comprende. Funciona con cualquier tema o lenguaje.
 
 ## Uso
 
 ```
 /simplify <tema>
+/simplify <tema> en <lenguaje>
 ```
 
-Ejemplo:
+Ejemplos:
 ```
 /simplify variables
-/simplify condicionales
-/simplify loops
+/simplify loops en JavaScript
 /simplify funciones
 ```
 
@@ -32,18 +32,11 @@ Ejemplo:
    - Ejemplo más concreto
    - Menos detalles técnicos
    - Paso a paso más granular
+   - Adaptado al lenguaje/tecnología correspondiente
 
 4. **Incluir** comparación con algo cotidiano
 
 5. **Usar `question`** para verificar comprensión con pregunta simple
-
-## Reglas Pedagógicas
-
-- No repetir la misma explicación
-- Cambiar el enfoque completamente
-- Usar analogías del mundo real
-- Reducir terminología técnica
-- Validar que ahora comprende
 
 ## Estrategias de Simplificación
 

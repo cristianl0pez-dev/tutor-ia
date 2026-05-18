@@ -1,4 +1,4 @@
-# Feedback: {{TEMA}}
+# Feedback: {{TEMA}} en {{LENGUAJE}}
 
 ## Lo Positivo
 
@@ -27,11 +27,11 @@
 
 | Archivo | Estado | Observación |
 |---------|--------|-------------|
-| `ejercicio_nivel1.py` | {{COMPLETADO/INCOMPLETO}} | {{OBSERVACIÓN}} |
-| `ejercicio_nivel2.py` | {{COMPLETADO/INCOMPLETO}} | {{OBSERVACIÓN}} |
-| `ejercicio_nivel3.py` | {{COMPLETADO/INCOMPLETO}} | {{OBSERVACIÓN}} |
-| `ejercicio_nivel4.py` | {{COMPLETADO/INCOMPLETO}} | {{OBSERVACIÓN}} |
-| `ejercicio_nivel5.py` | {{COMPLETADO/INCOMPLETO}} | {{OBSERVACIÓN}} |
+| `ejercicio_nivel1.{{EXT}}` | {{COMPLETADO/INCOMPLETO}} | {{OBSERVACIÓN}} |
+| `ejercicio_nivel2.{{EXT}}` | {{COMPLETADO/INCOMPLETO}} | {{OBSERVACIÓN}} |
+| `ejercicio_nivel3.{{EXT}}` | {{COMPLETADO/INCOMPLETO}} | {{OBSERVACIÓN}} |
+| `ejercicio_nivel4.{{EXT}}` | {{COMPLETADO/INCOMPLETO}} | {{OBSERVACIÓN}} |
+| `ejercicio_nivel5.{{EXT}}` | {{COMPLETADO/INCOMPLETO}} | {{OBSERVACIÓN}} |
 
 ## Siguiente Paso
 

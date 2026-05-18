@@ -2,36 +2,22 @@
 
 ## Información General
 
-- **Nombre**: Cristian
-- **Fecha de inicio**: 2026-05-18
-- **Última actividad**: 2026-05-18
+- **Nombre**: _por completar_
+- **Fecha de inicio**: _por completar_
+- **Última actividad**: _por completar_
 
 ---
 
 ## Módulos
 
-### Módulo 01 — Variables
-- **Estado**: No iniciado
-- **Nivel actual**: 0
-- **Fecha inicio**: -
-- **Fecha completado**: -
-- **Errores comunes**:
-  - _ninguno registrado_
-- **Observaciones**:
-  - _ninguna_
+_Los módulos se agregan dinámicamente según lo que el estudiante aprenda._
 
-### Módulo 02 — Condicionales
-- **Estado**: Bloqueado
-- **Nivel actual**: 0
-- **Fecha inicio**: -
-- **Fecha completado**: -
-- **Errores comunes**:
-  - _ninguno registrado_
-- **Observaciones**:
-  - _ninguna_
+### Plantilla de Módulo
 
-### Módulo 03 — Loops (Bucles)
-- **Estado**: Bloqueado
+```
+### Módulo: <NOMBRE_DEL_TEMA>
+- **Lenguaje/Tecnología**: <LENGUAJE>
+- **Estado**: No iniciado / En progreso / Completado
 - **Nivel actual**: 0
 - **Fecha inicio**: -
 - **Fecha completado**: -
@@ -39,32 +25,23 @@
   - _ninguno registrado_
 - **Observaciones**:
   - _ninguna_
-
-### Módulo 04 — Funciones
-- **Estado**: Bloqueado
-- **Nivel actual**: 0
-- **Fecha inicio**: -
-- **Fecha completado**: -
-- **Errores comunes**:
-  - _ninguno registrado_
-- **Observaciones**:
-  - _ninguna_
+```
 
 ---
 
 ## Historial de Actividad
 
-| Fecha | Módulo | Acción | Resultado |
-|-------|--------|--------|-----------|
-| _sin registros_ | - | - | - |
+| Fecha | Módulo | Lenguaje | Acción | Resultado |
+|-------|--------|----------|--------|-----------|
+| _sin registros_ | - | - | - | - |
 
 ---
 
 ## Pistas Solicitadas
 
-| Fecha | Módulo | Nivel | Cantidad |
-|-------|--------|-------|----------|
-| _sin registros_ | - | - | - |
+| Fecha | Módulo | Nivel | Lenguaje | Cantidad |
+|-------|--------|-------|----------|----------|
+| _sin registros_ | - | - | - | - |
 
 ---
 
